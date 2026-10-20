@@ -8,12 +8,11 @@ Open `index.html` in a browser. No package installation or build step is require
 
 ## Publish with GitHub Pages
 
-The workflow in `.github/workflows/deploy-pages.yml` deploys the site on pushes to `main` or `master`.
+This static site can be published directly from the `main` branch without a build workflow.
 
-1. Push the project files to the existing `lu-na-tic-ai/lunatic-ai` repository.
-2. In **Settings > Pages**, set the source to **GitHub Actions**.
-3. In the same section, add `www.lunatic.ai` as the custom domain. Keep the root `CNAME` file in the repository.
-4. Configure DNS at the domain provider with these records:
+1. In **Settings > Pages**, choose **Deploy from a branch**, then select `main` and `/ (root)`, and save.
+2. Add `www.lunatic.ai` as the custom domain. Keep the root `CNAME` file in the repository.
+3. Configure DNS at the domain provider with these records:
 
 | Type | Name | Value |
 | --- | --- | --- |
