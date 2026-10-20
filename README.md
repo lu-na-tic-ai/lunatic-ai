@@ -26,6 +26,6 @@ Add the custom domain in GitHub Pages before changing DNS. DNS changes may take 
 
 ## Before publishing
 
-- In `index.html`, replace `kontakt@lunatic.ai` in the form handler with an address that can receive launch-interest emails. The form opens the visitor's email application; it does not store submissions.
+- The interest form sends a prepared email to `info@lunatic.ai` by opening the visitor's email application. It does not store submissions.
 - The hero portrait is stored locally in the project. The web fonts load from Google Fonts and require an internet connection.
 - Add legal/privacy pages and consent handling as appropriate before collecting or processing personal data.
